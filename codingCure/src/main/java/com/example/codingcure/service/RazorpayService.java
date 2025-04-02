@@ -23,8 +23,8 @@ public class RazorpayService {
 
     static {
         COURSE_PRICES.put("Java Programming", 4000);
-        COURSE_PRICES.put("Data Structures", 5000);
-        COURSE_PRICES.put("Interview Preparation", 2000);
+        COURSE_PRICES.put("Spring Boot", 5000);
+        COURSE_PRICES.put("Interview Preparation", 6000);
     }
 
     public String createOrderByCourse(String course) throws RazorpayException {
